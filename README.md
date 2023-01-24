@@ -13,5 +13,5 @@ Obs. conversor-temp vai ser o nome de nossa imagem, caso queira atribuir outro n
 
 ### Colando imagem em um container
 Adicionei um yml para facilitar a execução do container com nossa imagem, basta dar um `docker-compose up -d`.
-É importante rodar com a tag -d para rodar o container como background sem travar seu terminal, depois basta dar um docker-compose down para parar o serviço.
+É importante rodar com a tag -d para rodar o container como background sem travar seu terminal, depois basta dar um `docker-compose down` para parar o serviço.
 Obs. Caso você tenha mudado o nome da image durante o build, mude a linha 4 do yml para o novo nome que você atribuiu.
